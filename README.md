@@ -13,14 +13,14 @@ Full paper: [https://arxiv.org/pdf/2101.04751.pdf](https://arxiv.org/pdf/2101.04
 
 After downloading the repository do the following:
 
-1 - In the root folder create the directory `data/` that you can download [here](googledrivelink)
-2 - Install requirements: `pip install -r requirements.txt` (be sure to also [install GCC](https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-04/))
-3 - Run the following: `python setup.py`
-4 - Compute the bubble radius and centralities of nodes in the graph: `python main.py -topic <TOPIC> -t 10 -proc radius -b 2 -topk 10 -unweighted false`
-5 - Get possible edges to add for ROV: `python controversy_for_edges.py -topic <TOPIC>`
-6 - Compute embedding for node2vec `python node2vec.py -topic <TOPIC> -r 20 -t 10`
-7 - Get possible edges with node2vec `python n2v_candidates.py -topic <TOPIC> -t 10`
-8 - Run `python main.py -topic <TOPIC> -t 10 -proc addition -b 2 -topk 10 -maxedges 400 -iter 1 -unweighted false`
+- In the root folder create the directory `data/` that you can download [here](googledrivelink)
+- Install requirements: `pip install -r requirements.txt` (be sure to also [install GCC](https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-04/))
+- Run the following: `python setup.py`
+- Compute the bubble radius and centralities of nodes in the graph: `python main.py -topic <TOPIC> -t 10 -proc radius -b 2 -topk 10 -unweighted false`
+- Get possible edges to add for ROV: `python controversy_for_edges.py -topic <TOPIC>`
+- Compute embedding for node2vec `python node2vec.py -topic <TOPIC> -r 20 -t 10`
+- Get possible edges with node2vec `python n2v_candidates.py -topic <TOPIC> -t 10`
+- Run `python main.py -topic <TOPIC> -t 10 -proc addition -b 2 -topk 10 -maxedges 400 -iter 1 -unweighted false`
 
 ## Run RePBubLik+ and baseline on your graph
 
