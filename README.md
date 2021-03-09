@@ -6,6 +6,8 @@ The topology of the hyperlink graph among pages expressing different opinions ma
 
 Full paper: [https://arxiv.org/pdf/2101.04751.pdf](https://arxiv.org/pdf/2101.04751.pdf)
 
+Contacts: cristina_menghini@brown.edu
+
 <hr>
 
 
@@ -13,7 +15,7 @@ Full paper: [https://arxiv.org/pdf/2101.04751.pdf](https://arxiv.org/pdf/2101.04
 
 After downloading the repository do the following:
 
-- In the root folder create the directory `data/` that you can download [here](googledrivelink)
+- In the root folder create the directory `data/` that you can download [here](https://drive.google.com/drive/folders/18XEFWgdx50lSlRY5EtnOzYToQt0j9f4W?usp=sharing)
 - Install requirements: `pip install -r requirements.txt` (be sure to also [install GCC](https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-04/))
 - Run the following: `python setup.py`
 - Compute the bubble radius and centralities of nodes in the graph: `python main.py -topic <TOPIC> -t 10 -proc radius -b 2 -topk 10 -unweighted false`
