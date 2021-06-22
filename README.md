@@ -8,6 +8,27 @@ Full paper: [https://arxiv.org/pdf/2101.04751.pdf](https://arxiv.org/pdf/2101.04
 
 Contacts: cristina_menghini@brown.edu
 
+Please cite this work if you user this code and the algorithm it presents.
+
+```
+@inproceedings{10.1145/3437963.3441825,
+author = {Haddadan, Shahrzad and Menghini, Cristina and Riondato, Matteo and Upfal, Eli},
+title = {RePBubLik: Reducing Polarized Bubble Radius with Link Insertions},
+year = {2021},
+isbn = {9781450382977},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3437963.3441825},
+doi = {10.1145/3437963.3441825},
+booktitle = {Proceedings of the 14th ACM International Conference on Web Search and Data Mining},
+pages = {139–147},
+numpages = {9},
+keywords = {fairness, polarization, bias},
+location = {Virtual Event, Israel},
+series = {WSDM '21}
+}
+```
+
 <hr>
 
 
